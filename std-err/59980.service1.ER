@@ -1,0 +1,4 @@
+Error: 1 mate files/sequences were specified with -1, but 0
+mate files/sequences were specified with -2.  The same number of mate files/
+sequences must be specified with -1 and -2.
+Command: bowtie -1 -2 
