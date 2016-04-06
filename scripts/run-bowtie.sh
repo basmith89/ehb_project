@@ -15,4 +15,4 @@
 module load bowtie
 
 #rough for now.  need to check bowtie options
-bowtie $BOWTIEINDEX -1 $FASTQ_R1 -2 $FASTQ_R2 > $BOWTIE_OUT_DIR/fba_bac_aln.sam
+$BOWTIE -t -p 4 $BOWTIEINDEX -1 $FASTQ_R1 -2 $FASTQ_R2 $BOWTIE_OUT_DIR/fba_bac_aln.sam

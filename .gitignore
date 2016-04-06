@@ -1,3 +1,5 @@
 luteibacter*
 data/*
 rawdata/*
+std-err/*
+std-out/*

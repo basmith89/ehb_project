@@ -9,7 +9,6 @@ export STDOUT_DIR="$CWD/std-out"
 export INDEX_DIR="$CWD/index"
 export BOWTIE_OUT_DIR="$CWD/bowtie-results"
 
-
 # bowtie parameters
 export BOWTIE="bowtie"
 export BOWTIEINDEX="$CWD/index/luteibacter_9143"
